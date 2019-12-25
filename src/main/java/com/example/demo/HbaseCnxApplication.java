@@ -7,17 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.example.demo.services.TestService;
 
 @SpringBootApplication
-public class HbaseCnxApplication implements CommandLineRunner{
+public class HbaseCnxApplication{
 
 	public static void main(String[] args) {
 		SpringApplication.run(HbaseCnxApplication.class, args);
-	}
-
-	@Override
-	public void run(String... args) throws Exception {
-		TestService tst = new TestService();
-		tst.createHbaseTable();
-		
 	}
 	
 	

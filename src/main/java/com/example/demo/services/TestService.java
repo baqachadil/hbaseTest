@@ -24,8 +24,7 @@ import com.example.demo.config.HbaseProperties;
 
 @Service
 public class TestService {
-	@Autowired
-    private HbaseTemplate hbaseTemplate;
+	
 	
 	@Autowired
     private HbaseProperties hbaseProperties;
